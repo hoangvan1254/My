@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" type="img/png" href="img/Logo.png">
+    <link rel="stylesheet" href="css/product-detail.css">
+</head>
+
+<body>
+    <header>
+        <p class="container text-white text-right mb-0">
+            <a href="signin.html"><span class="mx-3 border-right pr-4">Login</span></a>
+            <a href="signup.html"><span class="mx-3 border-right pr-4">Register</span></a>
+            <a href="Cart.html"><i class="fa fa-shopping-cart"></i></a>
+        </p>
+        <nav class="navbar navbar-expand-lg navbar-light container pt-0">
+            <a class="navbar-brand" href="Home.html">
+                <img src="img/Logo.png" width="150px" height="auto" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navi"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navi">
+                <ul class="navbar-nav  header__menu ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Categories.html">PRODUCT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pre-order.html">PREORDER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="title">
+        <div class="container text-white">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-transparent">
+                  <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a class="text-white" href="#">Product</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><a href="#" class="text-white">Product Detail</a></li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-5 col-xs-12">
+                <img id="proImage" src="img/Product-detail-2_03.jpg" class="img-fluid" alt="img1"><br>
+                <div class="row mx-auto">
+                    <div class="col-md-3 col-xs-3 p-3">
+                        <a onclick="document.getElementById('proImage').src='img/Product-detail-2_07.jpg'">
+                            <img src="img/Product-detail-2_07.jpg" width="50px" height="auto">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 p-3">
+                        <a onclick="document.getElementById('proImage').src='img/Product-detail-2_09.jpg'">
+                            <img src="img/Product-detail-2_09.jpg" width="50px" height="auto">
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-xs-3 p-3">
+                        <a onclick="document.getElementById('proImage').src='img/Product-detail-2_11.jpg'">
+                            <img src="img/Product-detail-2_11.jpg" width="50px" height="auto">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <h1>Lorem Ispum</h1>
+                <h3>$28.00</h3>
+                <hr>
+                <h5>Symbolically, the ao dai invokes nostalgia and timelessness associated with a gendered image of the
+                    homeland for which many Vietnamese people throughout the diaspora yearn</h5>
+                <hr>
+                <p>
+                    SKU: 116<br>
+                    Categories: Tokyo, Vienna, Zurich<br>
+                    Tags: Art, Fashion, Lifestyle
+                </p>
+                <div class="row">
+                    <button class="btn border ml-3">+</button>
+                    <input type="text" class="form-control input-form" placeholder="1">
+                    <button class="btn border">-</button>
+                    <button class="btn btn-dark ml-4 rounded-0"><a class="text-white" href="Cart.html">ADD TO
+                            CART</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true">Additional Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false">Description</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                            aria-controls="contact" aria-selected="false">Review (0)</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active my-5" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <p>Weight 1.5 kg<br>
+                            Dimensions 25 x 40 x 30 cm<br>
+                            Color<br>
+                            Blue, Green, Red, Yellow<br>
+                            Size<br>
+                            Extra Large, Large, Medium</p>
+                    </div>
+                    <div class="tab-pane fade my-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <p>Although the dress covers the entire body, it is thought to be provocative, especially when
+                            it is made of thin fabric. "The ao dai covers everything, but hides nothing"</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/women-1_03.jpg" class="img-fluid" alt="img3">
+                            </div>
+                            <div class="col-md-8">
+                                <img src="img/women-1_03.jpg" class="img-fluid" alt="img3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade my-5" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <div class="col-md-6">
+                            <p>Be the first to review “Embroided Panel Top” Your email address will not be published.
+                                Required fields are marked *</p>
+                            <h5>Your Rating</h5>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="col-md-12">
+                            <h5>Your Review</h5>
+                            <textarea class="form-control" name="review" id="" cols="30" rows="10"></textarea>
+                            <h5>Name</h5>
+                            <input class="form-control" type="text">
+                            <h5>Email</h5>
+                            <input class="form-control" type="text">
+                            <div class="row p-3 align-items-baseline">
+                                <input type="checkbox">
+                                <p>Save my name, email, and website in this browser for the next time I comment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <section class="container">
+        <div class="text-center">
+            <h1>Related Product</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/Product-detail-2_16.jpg" class="img-fluid" alt="img1">
+                <a class="text-dark" href="product-detail.html">Platform Espadriles</a>
+                <p>$28.00</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/Product-detail-2_18.jpg" class="img-fluid" alt="img1">
+                <a class="text-dark" href="product-detail.html">Platform Espadriles</a>
+                <p>$28.00</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="img/Product-detail-2_20.jpg" class="img-fluid" alt="img1">
+                <a class="text-dark" href="product-detail.html">Platform Espadriles</a>
+                <p>$28.00</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer mt-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="font-weight-normal">Contact Us</h2>
+                    <div class="my-3">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <span>214 Nguyễn Đình Chiểu, Phường 6, Quận 3, Hồ Chí Minh </span><br><br>
+                        <i class="fa fa-phone"></i>
+                        <span>0123456789</span><br><br>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-1">
+                    <h2 class="font-weight-normal">Customer Support</h2>
+                    <div class="Cus-support my-3">
+                        <a href="#">How to Order</a><br>
+                        <a href="#">Payment</a><br>
+                        <a href="#">Shipping</a><br>
+                        <a href="#">Return & Refun</a><br>
+                        <a href="#">Order Status</a><br>
+                        <a href="#">Payment Confirmation</a><br>
+                        <a href="#">Fit Guide</a><br>
+                        <a href="#">FAQ</a><br>
+                        <a href="#">Free Delivery</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h2>Payment method</h2>
+                    <div class="my-3">
+                        <img src="img/Blog_11.jpg" width="50px" class="my-1" alt=""><br>
+                        <img src="img/Blog_14.jpg" width="50px" class="my-1" alt=""><br>
+                        <img src="img/Blog_16.jpg" width="50px" class="my-1" alt=""><br>
+                    </div>
+                </div>
+                <div class="col-md-12 my-4 text-center follow border-top border-white py-4">
+                    <h2 class="font-weight-normal">Follow my</h2>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fa fa-envelope"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
